@@ -1,0 +1,128 @@
+body{ 
+    margin: 0px auto; 
+    width: 100%; 
+    font-family: 'Times New Roman', Times, serif;
+ }
+ nav ul li{
+     list-style-type: none;
+     float: left; 
+     padding-right: 10.3em; 
+     color: #6ebfb5; 
+ }  
+ nav ul{ 
+     float: right;
+ } 
+ nav{
+     width: 90% auto; 
+     height: 50px;
+     background-color: #0000A0;
+     position: fixed; 
+ } 
+ nav ul li a{
+       text-decoration: none;
+       color: white;
+ }
+ div{
+    background-color: #808000;
+ }
+ .home{ 
+     background-color: #ffc7c7c7; 
+     text-align: center;
+     font-size: 48px; 
+     color:#800000;
+     display: table;
+     height: 100vh; 
+     width: 100%;
+ } 
+ .inner{ 
+     display: table-cell;
+     vertical-align: middle; 
+ }
+ .home .inner img{ 
+      border-radius: 100%; 
+      width: 250px; 
+     height: auto;
+ }
+ .about .inner{
+       display: table-cell;
+       vertical-align: middle;
+       width: 70%; 
+       float: left;
+       padding-left: 185px;
+ }
+ .home .inner h1{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 100;
+ }
+ .about .inner h1{
+        font-size: 48px;
+        color:black;
+        font-weight: 300;
+        text-align: center;
+ }
+ .about .inner p{
+       font-size: 28px;
+       line-height: 50px;
+       color:#000000;
+ }
+ .menu{
+       background-color: #fff;
+       display: table;
+       width: 100%;
+       height: 100vh;
+ }
+ .menu .inner{
+       padding: 50px;
+   
+ }
+ .menu h1, .online order h1,  .contacts h1{
+       font-size: 42px;
+       text-align: center;
+ }
+ .menu .inner div,  .online order .inner div{
+       width: 70%;
+       margin-left: 5px;
+       margin-right: 5px;
+       float: left;
+       text-align: center;
+ }
+ .menu .inner div p,  .online order .inner div ul li,.contacts .inner div p{
+       font-size: 28px;
+ }
+ .menu .inner div img {
+        width: 450px;
+        height: auto;
+ }
+  .online order, .contact{
+       display: table;
+       width: 100%;
+       height: 100vh;
+                                        
+ }
+ .menu .inner, .contact .inner{
+      padding: 50px;
+                                       
+ }
+                                     /*.skills{
+                                         background-repeat: no-repeat;
+                                         background-size: cover;
+                                     }*/
+ .online order .inner{
+      background-color: rgba(0,0,0,0);
+      padding:50px;
+      color: rgb(34, 32, 32);
+ }
+ .online order .inner div ul li{
+       list-style-type: none;
+ }
+ .online order .inner div ul li{
+       padding-top: 10px;
+       padding-bottom:10px;
+       padding-left:200px;
+ }
+ .contact .inner{
+           text-align: center;
+  }
+  .about .inner, .menu .inner, .online order .inner{
+     text-align: center;
+ }
