@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fibonacci</title>
+    </head>
+    <body>
+        <script>
+            
+            function fib(n){
+                var i,a=0,b=1,c;
+            
+                for(i=1;i<=n;i++)
+                {
+                   document.write(a+" ");
+                    
+                    c=a+b;
+                    a=b;
+                    b=c;
+                }
+            }
+            fib(100);
+        
+        </script>
+    </body>
+</html>

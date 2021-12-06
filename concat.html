@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Concatination</title>
+    </head>
+    <body>
+        <script>
+            function push(arr1, arr2){
+                    for(let i=0, len=arr1.length;i<len;i++){
+                        arr2.push(arr1[i]);
+                    
+                }
+                return arr2;
+            }
+            var arr1=["a","b","c"];
+            var arr2=[1,2,3];
+            push(arr1,arr2);
+            document.write(arr2);
+        </script>
+    </body>
+</html>

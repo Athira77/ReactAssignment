@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+let text = "";
+const list = [
+  "Hello",
+  "World",
+  "in",
+  "a",
+  "frame"
+];
+document.getElementById('demo1').innerHTML="***<br>";
+list.forEach(myFunction);
+document.getElementById("demo2").innerHTML = text;
+document.getElementById('demo3').innerHTML="***<br>";
+function myFunction(item, index) {
+  text += "" + item + "<br>"; 
+}
+</script>
+
+</body>
+</html>

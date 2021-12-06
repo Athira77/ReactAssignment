@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="dollar"/>
+<input type="button" value="Convert" onClick="convertion()"/>
+<p id="result1"></p>
+<p id="result2"></p>
+<p id="result3"></p>
+<p id="result4"></p>
+
+
+<script>
+	function convertion(){	
+		let x=parseInt(document.getElementById('dollar').value);
+        document.getElementById('result1').innerHTML=x+" dollar is "+(x*74.28)+" Inr";
+        document.getElementById('result2').innerHTML=x+" dollar is "+(x*109.14)+" Yen";
+        document.getElementById('result3').innerHTML=x+" dollar is "+(x*0.84)+" Euro";
+        document.getElementById('result4').innerHTML=x+" dollar is "+(x*0.72)+" Pound Sterling";
+		
+    }
+</script>
+
+</body>
+</html>
