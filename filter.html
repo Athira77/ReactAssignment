@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>String</title>
+    </head>
+    <body>
+        <script>
+            var test1=["stop","quit","exit"];
+            var test2=["queen","quit"];
+        
+            function filter(item){
+                var sum =0
+                var temp=item.filter(items => !items.includes("q"));
+                temp.map(items => sum=sum+items.length);
+                console.log(sum);
+            }
+            filter(test1);
+
+            
+        </script>
+    </body>
+</html>

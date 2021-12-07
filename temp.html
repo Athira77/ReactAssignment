@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature</title>
+    </head>
+    <body>
+        <input type="text" id="result"></input>
+        <br><br>
+        <button onclick="temp()">Show results</button>
+        <p id="demo"></p>
+        
+
+        <script>
+            function temp(){
+                var a = document.getElementById("result").value;
+                console.log(a);
+                document.getElementById('demo').innerHTML = (a - 32) * 5/9;
+                
+            }
+           
+
+
+        </script>
+     </body>
+</html>
